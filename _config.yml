@@ -1,0 +1,41 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: "Your Blog Title"
+name: "Your Name"
+description: "A brief description of your blog"
+url: "https://yourusername.github.io"
+baseurl: "/repository-name"  # If using a project page. Remove if using username.github.io
+
+# Site Author
+author:
+  name: "Your Name"
+  avatar: "/assets/images/bio-photo.jpg"  # Add a profile photo later
+  bio: "Your brief bio"
+  location: "Your Location"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourusername"
+
+# Site Settings
+locale: "en-US"
+search: true
+search_full_content: true
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
